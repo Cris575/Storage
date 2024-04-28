@@ -139,7 +139,7 @@ const TaskForm = ({
         style={styles.input}
         placeholder="Apellido"
         value={lastName}
-        onChangeText={setLastName}
+        onChangeText={setLastName} //a
       />
       <TextInput style={styles.input} placeholder="Correo" value={email} onChangeText={setEmail} />
       <TextInput
